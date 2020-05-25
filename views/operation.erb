@@ -1,0 +1,10 @@
+<% if @operation == "add"
+    sum = @num1 + @num2 
+    elsif @operation == "subtract"
+    sum = @num1 - @num2
+    elsif @operation == "multiply"
+    sum = @num1 * @num2
+    else @operation == "divide"
+      sum = @num1 / @num2
+    end %>
+<%= "#{sum}" %>
